@@ -124,3 +124,5 @@ cwallet.sso.lck### Java template
 hs_err_pid*
 
 
+src/main/resources/
+src/test/
