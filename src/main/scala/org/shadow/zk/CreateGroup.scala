@@ -1,11 +1,11 @@
-package org.sahdow.zk
+package org.shadow.zk
 
 import java.util.concurrent.CountDownLatch
 
 import org.apache.zookeeper.Watcher.Event.KeeperState
 import org.apache.zookeeper.ZooDefs.Ids
 import org.apache.zookeeper.{CreateMode, WatchedEvent, Watcher, ZooKeeper}
-import org.sahdow.Logging
+import org.shadow.core.Logging
 import org.slf4j.LoggerFactory
 
 /**

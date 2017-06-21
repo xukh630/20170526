@@ -128,3 +128,4 @@ src/main/resources/
 src/test/
 
 spark-warehouse
+/src/main/scala/org/shadow/saprkcsv.scala

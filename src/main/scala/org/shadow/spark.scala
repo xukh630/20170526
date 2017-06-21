@@ -1,4 +1,4 @@
-package org.sahdow
+package org.shadow
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession

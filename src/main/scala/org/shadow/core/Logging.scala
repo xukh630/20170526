@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.sahdow
+package org.shadow.core
 
 import org.apache.log4j.{Level, LogManager, PropertyConfigurator}
-import org.slf4j.{Logger, LoggerFactory}
 import org.slf4j.impl.StaticLoggerBinder
+import org.slf4j.{Logger, LoggerFactory}
 
 
 /**

@@ -22,6 +22,7 @@
         <spark.version>2.1.1</spark.version>
         <hadoop.version>2.7.3</hadoop.version>
         <scala.lang.version>2.11.8</scala.lang.version>
+        <kafka.version>0.10.2.1</kafka.version>
     </properties>
 
     <dependencies>
@@ -85,6 +86,50 @@
             <scope>provided</scope>
         </dependency>
         <!--test end-->
+
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <version>0.10</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka_2.11 -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.11</artifactId>
+            <version>0.10.2.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka_2.11 -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.11</artifactId>
+            <version>0.10.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.42</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor_2.11 -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor_${scala.binary.version}</artifactId>
+            <version>2.5.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-compress</artifactId>
+            <version>1.12</version>
+        </dependency>
+
+
+
+
     </dependencies>
 
 
