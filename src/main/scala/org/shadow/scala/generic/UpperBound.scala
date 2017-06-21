@@ -1,7 +1,6 @@
 package org.shadow.scala.generic
 
 /**
-  * Created by ZX on 2016/3/31.
   * 在scala中泛型与java中的表示方式不同用"[]"
   * 例如[T <: Comparable[T]]表示上界，传入的为Comparable的子类
   */

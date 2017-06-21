@@ -4,10 +4,6 @@ import java.io.File
 
 import scala.io.Source
 
-/**
-  *
-  * Created by ZX on 2016/3/31.
-  */
 
 class RichFile(file: File) {
   def read() = Source.fromFile(file).mkString

@@ -5,9 +5,7 @@ import java.util.concurrent.{BlockingQueue, LinkedBlockingDeque}
 
 import scala.util.control.NonFatal
 
-/**
-  * Created by ZX on 2016/3/29.
-  */
+
 abstract class EventLoop[E](name: String) {
 
   //java中的消息队列

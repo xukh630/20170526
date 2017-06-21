@@ -1,8 +1,6 @@
 package org.shadow.scala.cases
 
-/**
-  * Created by ZX on 2016/4/5.
-  */
+
 object PartialFuncDemo  {
 
   def func1: PartialFunction[String, Int] = {

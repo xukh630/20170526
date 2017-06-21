@@ -2,9 +2,7 @@ package org.shadow.scala.cases
 
 import scala.util.Random
 
-/**
-  * Created by ZX on 2016/4/5.
-  */
+
 object CaseDemo02 extends App{
 
   //val x = 3

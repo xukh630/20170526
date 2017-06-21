@@ -3,9 +3,7 @@ package org.shadow.scala.thread
 import java.util.concurrent.{Callable, Executor, Executors, Future}
 
 
-/**
-  * Created by root on 2016/5/11.
-  */
+
 object ThreadDemo {
 
   def main(args: Array[String]) {

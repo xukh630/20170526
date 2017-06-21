@@ -1,8 +1,6 @@
 package org.shadow.scala.thread
 
-/**
-  * Created by ZX on 2016/3/29.
-  */
+
 object Thread01 {
 
   def main(args: Array[String]) {

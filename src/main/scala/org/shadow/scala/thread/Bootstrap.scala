@@ -1,7 +1,6 @@
 package org.shadow.scala.thread
 
 /**
-  * Created by ZX on 2016/3/29.
   * 从spark中扣出来的消费, 启动入口
   */
 object Bootstrap {

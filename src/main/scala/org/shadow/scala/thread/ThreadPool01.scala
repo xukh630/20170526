@@ -2,9 +2,7 @@ package org.shadow.scala.thread
 
 import java.util.concurrent.{ExecutorService, Executors, TimeUnit}
 
-/**
-  * Created by ZX on 2016/3/29.
-  */
+
 object ThreadPool01 {
 
   def main(args: Array[String]) {
